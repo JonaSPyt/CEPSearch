@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  
+}
+
+.container{
+  min-height: 100vh;
+  min-width: 100vw;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 20%, rgba(82,82,82,1) 100%);
+}
+.buscador{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+}
+.buscador h1{
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 6vw;
+  color: white;
+}
+
+.forms{
+  display: flex;
+  justify-content: center;
+  min-width: 30vw;
+  height: 3em;
+  box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
+}
+
+.forms input{
+  min-width: 27vw;
+  min-height: 100%;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+}
+.forms button{
+  background-color: transparent;
+  height: 100%;
+  cursor: pointer;
+  border: 0;
+  min-width: 10%;
+  color: white;
+}
+
+.inf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 10px;
+  width: 100%;
+  min-height: 20vh;
+  font-size: 30px;
+  border-radius: 10px;
+  color: white;
+  top: 30px;
+  gap: 10px;
+  
+  
+}
+
+.inf span{
+  border-bottom: 1px solid white;
+}
